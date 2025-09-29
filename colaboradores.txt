@@ -1,0 +1,24 @@
+1.¿Qué es una rama (branch) en Git y para qué se utiliza?
+R.-Es una línea de trabajo independiente dentro de un proyecto.
+Que se utiliza para que puedas hacer cambios, probar cosas nuevas o corregir errores sin modificar directamente la versión principal (main).
+
+2.Explica con tus palabras qué significa hacer un merge.
+R.-Es unir los cambios de una rama con otra, normalmente con la rama principal, de modo que todo el trabajo se combine sin perder nada que ya existía. 
+Es como juntar dos caminos de trabajo en uno solo.
+
+3.¿Qué es un conflicto de fusión (merge conflict) y cómo se puede resolver?
+R.-Esto ocurre cuando Git no puede combinar automáticamente los cambios de dos ramas porque modificaron la misma parte de un archivo.
+Se resuelve editando el archivo en conflicto, eligiendo qué cambios mantener o combinarlos, luego se hace git add y se completa el merge con git commit
+
+4.Diferencia entre fork y clone en GitHub.
+R.-Un fork crea una copia de un repositorio en tu cuenta de GitHub, mientras que un clone descarga ese repositorio a tu computadora para trabajar localmente.
+Fork = copia en GitHub (en línea)
+Clone = copia en tu PC (local)
+
+5.¿Qué es un pull request y para qué se usa en proyectos colaborativos?
+R.-Es una solicitud para unir tus cambios con la rama principal de un proyecto y se usa para que otros revisen y aprueben los cambios antes de integrarlos.
+
+6.Investiga y explica 3 buenas prácticas para colaborar en equipo usando GitHub.
+R.-Usar ramas para cada tarea o función, evitando afectar la rama principal.
+Hacer commits pequeños y claros para que los cambios sean fáciles de entender.
+Usar pull requests para que el equipo revise y apruebe los cambios antes de fusionarlos.
